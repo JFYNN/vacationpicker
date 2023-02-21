@@ -1,16 +1,23 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  
+  <VacationPicker/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import VacationPicker from './components/VacationPicker.vue';
 
+// export default {
+//   name: 'App',
+//   components: {
+//     HelloWorld
+//   }
+// }
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+    name: "App",
+    components: { 
+      VacationPicker 
+    }
 }
 </script>
 
